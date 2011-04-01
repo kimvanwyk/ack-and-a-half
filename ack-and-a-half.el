@@ -215,7 +215,7 @@ confirmed.  If t, then always prompt for the directory to use."
 
 (defun ack-and-a-half-create-type (extensions)
   (list "--type-set"
-        (concat "ack-and-a-half-custom-type=" (mapconcat 'identity extnesions ","))
+        (concat "ack-and-a-half-custom-type=" (mapconcat 'identity extensions ","))
         "--type" "ack-and-a-half-custom-type"))
 
 (defun ack-and-a-half-type-for-major-mode (mode)
