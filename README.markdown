@@ -12,7 +12,7 @@ Add the following to your .emacs:
     (add-to-list 'load-path "/path/to/ack-and-a-half")
     (autoload 'ack-and-a-half-same "ack-and-a-half" nil t)
     (autoload 'ack-and-a-half "ack-and-a-half" nil t)
-    (autoload 'ack-and-a-half-find-file-samee "ack-and-a-half" nil t)
+    (autoload 'ack-and-a-half-find-file-same "ack-and-a-half" nil t)
     (autoload 'ack-and-a-half-find-file "ack-and-a-half" nil t)
     ;; Create shorter aliases
     (defalias 'ack 'ack-and-a-half)
